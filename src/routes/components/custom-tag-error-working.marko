@@ -1,0 +1,8 @@
+import titleComponent from "./custom-tag.marko";
+export interface Input {
+    name?: string;
+}
+<titleComponent/>
+<div>${input.name.length}</div>
+$ input.name++;
+<div>${input.name++}</div>
