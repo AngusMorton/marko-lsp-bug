@@ -1,0 +1,8 @@
+export interface Input {
+    resolves: boolean;
+}
+<await(Promise.resolve(input.resolves))>
+    <@then>
+        <div>Resolved</div>
+    </@then>
+</await>
